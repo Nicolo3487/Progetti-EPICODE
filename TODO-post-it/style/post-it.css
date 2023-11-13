@@ -1,0 +1,141 @@
+/*   MAIN    */
+body {
+    font-family: 'Shadows Into Light Two', cursive;
+}
+main {
+    width: auto;
+    height: 52.5rem;
+    background-color: #666;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;/* center */
+    padding: 3rem;
+}
+h3 {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+p {
+    font-size: 1em;
+}
+
+/*  ANIMATION   */
+@keyframes fallDown{
+    from{
+        scale: 2;
+        opacity: 0;
+        z-index: 1;
+    }
+    1%{
+        opacity: 1;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/*  POST-IT  */
+.post-it {
+    /* dimensioni */
+    width:  350px;
+    height: 300px;
+    margin: 30px;
+
+    /* contenuti*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    /* esterno */
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+}
+/*  POST 1  */
+#post1 {
+    background: linear-gradient(to bottom, #FDFDCB, 80%,#BDBDA3 95%);
+    transform: rotate(-5deg);
+    transition: 0.7s ease-in;
+    animation: fallDown 1s linear 1s backwards;
+}
+#post1:hover {
+    transform: rotate(0deg) scale(1.2);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+/*  POST 2  */
+#post2 {
+    background: linear-gradient(to bottom,#CAFACA, 80%,#9EB5A1 95%);
+    transform: rotate(5deg);
+    transition: 0.7s ease-in;
+    animation: fallDown 1s linear 2s backwards;
+}
+#post2:hover{
+    transform: rotate(0deg) scale(1.2);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+/*  POST 3  */
+#post3{
+    background: linear-gradient(to bottom,#C9C9F7, 80%, #8B8C9B 95%);
+    transform: rotate(-7deg);
+    transition: 0.7s ease-in;
+    animation: fallDown 1s linear 3s backwards;
+}
+#post3:hover{
+    transform: rotate(0deg) scale(1.2);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+/*  POST 4  */
+#post4{
+    background: linear-gradient(to bottom,#CAFACA, 80%,#9EB5A1 95%);
+    transform: rotate(5deg);
+    transition: 0.7s ease-in;
+    animation: fallDown 1s linear 4s backwards;  
+}
+#post4:hover{
+    transform: rotate(0deg) scale(1.2);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+/*  POST 5  */
+#post5{
+    background: linear-gradient(to bottom, #FDFDCB, 80%,#BDBDA3 95%);
+    transform: rotate(-5deg) ;
+    transition: 0.7s ease-in;
+    animation: fallDown 1s linear 5s backwards;
+}
+#post5:hover{
+    transform: rotate(0deg) scale(1.2);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+/*  POST 6  */
+#post6{
+    background: linear-gradient(to bottom,#C9C9F7, 80%, #8B8C9B 95%);
+    transform: rotate(-7deg);
+    transition: 0.7s ease-in;
+    animation: fallDown 1s linear 6s backwards;
+}
+#post6:hover{
+    transform: rotate(0deg) scale(1.2);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}  
+/*  POST 7  */
+#post7{
+    background: linear-gradient(to bottom, #FDFDCB, 80%,#BDBDA3 95%);
+    transform: rotate(-5deg);
+    transition: 0.7s ease-in;
+    animation: fallDown 1s linear 7s backwards;
+}
+#post7:hover{
+    transform: rotate(0deg) scale(1.2);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+/*  POST 8  */
+#post8{
+    background: linear-gradient(to bottom,#CAFACA, 80%,#9EB5A1 95%);
+    transform: rotate(5deg);
+    transition: 0.7s ease-in;
+    animation: fallDown 1s linear 8s backwards;
+}
+#post8:hover{
+    transform: rotate(0deg) scale(1.2);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
